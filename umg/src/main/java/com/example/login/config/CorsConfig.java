@@ -16,6 +16,7 @@ public class CorsConfig {
         config.setAllowCredentials(true);
         config.addAllowedOrigin("http://20.115.92.164:3000"); // Imposta il tuo frontend origin
         config.addAllowedOrigin("http://localhost:3000"); // Imposta il tuo frontend origin
+        config.addAllowedOrigin("https://69026be36a0b423573fd1f84--startling-beignet-29c916.netlify.app"); // Netlify
         config.addAllowedHeader("*");
         config.addAllowedMethod("OPTIONS");
         config.addAllowedMethod("GET");
